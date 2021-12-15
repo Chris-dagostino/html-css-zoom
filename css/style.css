@@ -26,7 +26,7 @@ footer {
     bottom: 0px;
     width: 100%;
     background-color: #212121;
-    height: 100px;
+    height: 70px;
     z-index: 999;
 }
 
@@ -63,6 +63,7 @@ footer {
     align-items: center;
     border-radius: 5px;
     margin: 5px;
+    cursor: pointer;
 }
 
 .position-relative {
@@ -109,10 +110,29 @@ p {
     color: #49c301;
 }
 
+.nav-left {
+    cursor: pointer;
+}
+
+.nav-center {
+    cursor: pointer;
+}
+
+.nav-right {
+    background-color:#3e3e3e;
+    cursor: pointer;
+}
+
 .box-red {
     color: #ff0000;
-    background-color:#3e3e3e;
-    padding: 10px ;
-    height: 100%;
+    padding: 20px ;
+}
+
+.margin {
+    margin: 0px 15px;
+}
+
+.margin-x {
+    margin-bottom: 10px;
 }
 
