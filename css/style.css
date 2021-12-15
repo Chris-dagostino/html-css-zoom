@@ -17,10 +17,7 @@ header {
 }
 
 main {
-    width: 90vw;
-    height: 100vh;
     margin: 60px auto;
-    background-color: violet;
 
 }
 
@@ -28,8 +25,8 @@ footer {
     position: fixed;
     bottom: 0px;
     width: 100%;
+    background-color: #212121;
     height: 100px;
-    background-color: cornflowerblue;
     z-index: 999;
 }
 
@@ -37,8 +34,13 @@ footer {
     display: flex;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 .flex-end {
     justify-content: flex-end;
+    width: 100%;
 }
 
 .flex-column {
@@ -48,6 +50,10 @@ footer {
 .flex-center {
     justify-content: center;
     align-items: center;
+}
+
+.flex-space-btw{
+    justify-content: space-between;
 }
 
 .box {
@@ -84,15 +90,29 @@ i {
 }
 
 .nav {
-    width: 1180vw;
+    width: 100vw;
 }
 
-.nav-left, .nav-right {
-    width: 20%;
-    background-color: turquoise;
+footer i {
+    font-size: 30px;
 }
 
-.nav-center {
-    width: 60%;
-    background-color: tomato;
+.fa-chevron-up {
+    font-size: 10px;
 }
+
+p {
+    color: white;
+}
+
+.grey i {
+    color: #49c301;
+}
+
+.box-red {
+    color: #ff0000;
+    background-color:#3e3e3e;
+    padding: 10px ;
+    height: 100%;
+}
+
