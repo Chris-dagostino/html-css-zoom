@@ -142,3 +142,7 @@ p {
     margin-bottom: 10px;
 }
 
+.shrink {
+    flex-shrink: 0;
+}
+
